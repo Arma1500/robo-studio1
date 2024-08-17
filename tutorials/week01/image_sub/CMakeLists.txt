@@ -13,7 +13,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(camera_image_sub rclcpp std_msgs)
+add_executable(camera_image_sub src/camera_image_sub.cpp)
+ament_target_dependencies(camera_image_sub rclcpp std_msgs)
+
 
 install(TARGETS
   camera_image_sub

@@ -14,8 +14,8 @@
 
 #include <memory>
 
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/image.hpp"
+#include <rclcpp/rclcpp.hpp>
+#include <sensor_msgs/msg/image.hpp>
 using std::placeholders::_1;
 
 class ImageSubscriber : public rclcpp::Node
