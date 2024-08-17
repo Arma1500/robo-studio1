@@ -10,8 +10,7 @@ using std::placeholders::_1;
 class LaserSubscriber : public rclcpp::Node
 {
 public:
-  LaserSubscriber()
-  : Node("laser_sub")
+  LaserSubscriber() : Node("laser_sub")
   {
     auto subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
       "/scan", 10, std::bind(&LaserSubscriber::topic_callback, this, _1));
