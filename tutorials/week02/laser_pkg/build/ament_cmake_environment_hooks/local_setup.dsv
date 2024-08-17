@@ -1,0 +1,2 @@
+source;share/laser_pkg/environment/ament_prefix_path.sh
+source;share/laser_pkg/environment/path.sh
