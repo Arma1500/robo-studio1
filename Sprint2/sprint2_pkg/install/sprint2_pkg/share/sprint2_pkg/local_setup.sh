@@ -1,0 +1,1 @@
+/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg/ament_cmake_environment_hooks/local_setup.sh

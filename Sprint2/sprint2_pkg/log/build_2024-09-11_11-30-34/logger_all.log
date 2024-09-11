@@ -1,0 +1,106 @@
+[0.504s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.504s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe76ba7ed40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe76ba7e650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe76ba7e650>>, mixin_verb=('build',))
+[1.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.502s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arhma/ros2_ws/src/sprint2_pkg'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.584s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'sprint2_pkg'
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/arhma/ros2_ws/install
+[1.739s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[1.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_args' from command line to 'None'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_target' from command line to 'None'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.091s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'sprint2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.092s] DEBUG:colcon.colcon_core.verb:Building package 'sprint2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg', 'merge_install': False, 'path': '/home/arhma/ros2_ws/src/sprint2_pkg', 'symlink_install': True, 'test_result_base': None}
+[2.093s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.097s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arhma/ros2_ws/src/sprint2_pkg' with build type 'ament_cmake'
+[2.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arhma/ros2_ws/src/sprint2_pkg'
+[2.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/arhma/ros2_ws/src/sprint2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg
+[8.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/arhma/ros2_ws/src/sprint2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg
+[8.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg -- -j8 -l8
+[68.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg -- -j8 -l8
+[68.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg
+[68.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sprint2_pkg)
+[68.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg
+[68.760s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg' for CMake module files
+[68.762s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg' for CMake config files
+[68.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('sprint2_pkg', 'cmake_prefix_path')
+[68.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.ps1'
+[68.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.dsv'
+[68.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.sh'
+[68.772s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib'
+[68.773s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/bin'
+[68.773s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib/pkgconfig/sprint2_pkg.pc'
+[68.774s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib/python3.10/site-packages'
+[68.776s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/bin'
+[68.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.ps1'
+[68.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.dsv'
+[68.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.sh'
+[68.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.bash'
+[68.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.zsh'
+[68.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/colcon-core/packages/sprint2_pkg)
+[68.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sprint2_pkg)
+[68.881s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg' for CMake module files
+[68.885s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg' for CMake config files
+[68.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('sprint2_pkg', 'cmake_prefix_path')
+[68.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.ps1'
+[68.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.dsv'
+[68.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/hook/cmake_prefix_path.sh'
+[68.896s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib'
+[68.896s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/bin'
+[68.897s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib/pkgconfig/sprint2_pkg.pc'
+[68.898s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib/python3.10/site-packages'
+[68.900s] Level 1:colcon.colcon_core.environment:checking '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/bin'
+[68.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.ps1'
+[68.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.dsv'
+[68.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.sh'
+[68.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.bash'
+[68.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.zsh'
+[68.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/colcon-core/packages/sprint2_pkg)
+[68.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[68.918s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[68.918s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[68.919s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[68.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[68.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[68.947s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[69.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[69.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arhma/ros2_ws/src/sprint2_pkg/install/local_setup.ps1'
+[69.018s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arhma/ros2_ws/src/sprint2_pkg/install/_local_setup_util_ps1.py'
+[69.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arhma/ros2_ws/src/sprint2_pkg/install/setup.ps1'
+[69.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arhma/ros2_ws/src/sprint2_pkg/install/local_setup.sh'
+[69.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arhma/ros2_ws/src/sprint2_pkg/install/_local_setup_util_sh.py'
+[69.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arhma/ros2_ws/src/sprint2_pkg/install/setup.sh'
+[69.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arhma/ros2_ws/src/sprint2_pkg/install/local_setup.bash'
+[69.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arhma/ros2_ws/src/sprint2_pkg/install/setup.bash'
+[69.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arhma/ros2_ws/src/sprint2_pkg/install/local_setup.zsh'
+[69.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arhma/ros2_ws/src/sprint2_pkg/install/setup.zsh'

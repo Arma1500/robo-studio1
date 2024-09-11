@@ -1,0 +1,72 @@
+[0.054s] Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/arhma/ros2_ws/src/sprint2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.793s] -- Detecting C compiler ABI info - done
+[0.832s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.833s] -- Detecting C compile features
+[0.835s] -- Detecting C compile features - done
+[0.848s] -- Detecting CXX compiler ABI info
+[1.243s] -- Detecting CXX compiler ABI info - done
+[1.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.291s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.309s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.998s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.240s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.448s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.726s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.765s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.829s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.256s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.866s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.106s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.178s] -- Looking for pthread.h
+[4.466s] -- Looking for pthread.h - found
+[4.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.780s] -- Found Threads: TRUE  
+[5.097s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.287s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[5.298s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.407s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.918s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/arhma/ros2_ws/src/sprint2_pkg/include>
+[5.918s] -- Configured cppcheck exclude dirs and/or files: 
+[5.940s] -- Added test 'lint_cmake' to check CMake code style
+[5.995s] -- Added test 'uncrustify' to check C / C++ code style
+[5.996s] -- Configured uncrustify additional arguments: 
+[6.004s] -- Added test 'xmllint' to check XML markup files
+[6.013s] -- Configuring done
+[6.072s] -- Generating done
+[6.083s] -- Build files have been written to: /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg
+[6.131s] Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/arhma/ros2_ws/src/sprint2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg
+[6.141s] Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg -- -j8 -l8
+[6.311s] [ 50%] [32mBuilding CXX object CMakeFiles/sprint2_node.dir/src/sprint2_node.cpp.o[0m
+[62.602s] [100%] [32m[1mLinking CXX executable sprint2_node[0m
+[65.911s] [100%] Built target sprint2_node
+[65.955s] Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg -- -j8 -l8
+[66.081s] Invoking command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg
+[66.108s] -- Install configuration: ""
+[66.110s] -- Execute custom install script
+[66.113s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/lib/sprint2_pkg/sprint2_node
+[66.147s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/ament_index/resource_index/package_run_dependencies/sprint2_pkg
+[66.178s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/ament_index/resource_index/parent_prefix_path/sprint2_pkg
+[66.211s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/environment/ament_prefix_path.sh
+[66.243s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/environment/ament_prefix_path.dsv
+[66.276s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/environment/path.sh
+[66.306s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/environment/path.dsv
+[66.337s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/local_setup.bash
+[66.373s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/local_setup.sh
+[66.404s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/local_setup.zsh
+[66.435s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/local_setup.dsv
+[66.467s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.dsv
+[66.499s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/ament_index/resource_index/packages/sprint2_pkg
+[66.530s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/cmake/sprint2_pkgConfig.cmake
+[66.561s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/cmake/sprint2_pkgConfig-version.cmake
+[66.601s] -- Symlinking: /home/arhma/ros2_ws/src/sprint2_pkg/install/sprint2_pkg/share/sprint2_pkg/package.xml
+[66.641s] Invoked command in '/home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arhma/ros2_ws/install/turtlebot3_teleop:/home/arhma/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/arhma/ros2_ws/src/sprint2_pkg/build/sprint2_pkg

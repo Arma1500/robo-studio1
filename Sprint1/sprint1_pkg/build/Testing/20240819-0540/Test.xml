@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240819-0540-Experimental"
+	Name="arhma-XPS-13-7390"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="arhma-XPS-13-7390"
+	OSRelease="5.15.0-118-generic"
+	OSVersion="#128-Ubuntu SMP Fri Jul 5 09:28:59 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7629"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="869.701"
+	>
+	<Testing>
+		<StartDateTime>Aug 19 15:47 AEST</StartDateTime>
+		<StartTestTime>1724046443</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 19 15:47 AEST</EndDateTime>
+		<EndTestTime>1724046443</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
