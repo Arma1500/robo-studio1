@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/arhma/git/robo-studio1/tutorials/week02/laser_pkg/build",
-  "command": "/usr/bin/c++  -I/home/arhma/git/robo-studio1/tutorials/week02/laser_pkg/include -g -Wall -Wextra -Wpedantic -o CMakeFiles/laser_sub.dir/src/laser_sub.cpp.o -c /home/arhma/git/robo-studio1/tutorials/week02/laser_pkg/src/laser_sub.cpp",
-  "file": "/home/arhma/git/robo-studio1/tutorials/week02/laser_pkg/src/laser_sub.cpp"
-}
-]

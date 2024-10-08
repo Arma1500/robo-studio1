@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/laser_sub.dir/src/laser_sub.cpp.o -o laser_sub 
