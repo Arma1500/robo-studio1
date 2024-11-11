@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/arya/ros2_ws/install/turtlesim/include/**",
+        "/home/arya/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/home/arya/ros2_ws/install/turtlebot3_msgs/include/**",
+        "/home/arya/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/arya/ros2_ws/install/gazebo_map_creator_interface/include/**",
+        "/home/arya/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/arya/ros2_ws/install/dynamixel_sdk/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/arya/ros2_ws/src/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/arya/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/arya/ros2_ws/src/Robotics-Studio-1/laser_cylinder/include/**",
+        "/home/arya/ros2_ws/src/Robotics-Studio-1/map_overlay/include/**",
+        "/home/arya/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/arya/ros2_ws/src/turtlebot3/turtlebot3_node/include/**",
+        "/home/arya/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/arya/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

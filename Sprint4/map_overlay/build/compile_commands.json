@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/arhma/ros2_ws/src/map_overlay/build",
+  "command": "/usr/bin/c++  -I/home/arhma/ros2_ws/src/map_overlay/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/map_overlay.dir/main.cpp.o -c /home/arhma/ros2_ws/src/map_overlay/main.cpp",
+  "file": "/home/arhma/ros2_ws/src/map_overlay/main.cpp"
+}
+]
